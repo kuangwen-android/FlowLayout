@@ -17,6 +17,9 @@ public abstract class TagAdapter<T> {
         mTagDatas = datas;
     }
 
+    public TagAdapter() {
+    }
+
     public TagAdapter(T[] datas) {
         mTagDatas = new ArrayList<T>(Arrays.asList(datas));
     }
