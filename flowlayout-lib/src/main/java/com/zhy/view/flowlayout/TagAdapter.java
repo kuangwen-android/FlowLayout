@@ -18,6 +18,7 @@ public abstract class TagAdapter<T> {
     }
 
     public TagAdapter() {
+        mTagDatas = new ArrayList<>();
     }
 
     public TagAdapter(T[] datas) {
